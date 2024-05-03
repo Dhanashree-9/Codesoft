@@ -1,0 +1,50 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #ffc0cb; /* Pink background color */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .calculator {
+      background-color: #ffe6ee; /* Light pink background color */
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .output {
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      font-size: 1.5rem;
+    }
+
+    .keys {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #ADD8E6; /* Lighter pink background color */
+    }
+
+    button:hover {
+      background-color: #ffa7b7; /* Darker pink background color */
+    }
